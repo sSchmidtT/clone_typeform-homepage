@@ -1,8 +1,8 @@
-import React, { ButtonHTMLAttributes } from 'react';
+import React, { AnchorHTMLAttributes } from 'react';
 
 import { Link } from './styles';
 
-interface LinkProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   title: string;
 }
 

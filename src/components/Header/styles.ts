@@ -18,7 +18,7 @@ export const HeaderCustom = styled(motion.header)`
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin: 0, 1.6rem;
+        margin: 0 1.6rem;
         width: 70%;
     
         .nav-bar {
@@ -26,6 +26,18 @@ export const HeaderCustom = styled(motion.header)`
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+
+            .menu {
+                display: flex;
+                flex-direction: row; 
+                list-style:none;
+                float: left;
+
+                li {
+                    position: relative;
+                    float: left;
+                }
+            }
         }
     }
 `

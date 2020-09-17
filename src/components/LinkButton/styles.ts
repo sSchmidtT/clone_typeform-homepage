@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-export const Link = styled.button`
-   border: 0px;
-   background: transparent;
-   margin-left: 1.2rem;
-   font-size: 12px; 
+export const Link = styled.a`
+   margin: 0 0.6rem;
+   font-size: 14px;
+   color: #000; 
    font-weight: bold;
-   cursor: pointer;
+   text-decoration:none; 
 `
